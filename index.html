@@ -33,9 +33,9 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#technologies">TECHNOLOGIES    </a></li>
                 <li><a href="#project">PROJECT</a></li>
-                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#blog">BLOG</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
@@ -63,9 +63,9 @@
             <h4>안녕하세요. 소프트웨어융합학과에 재학 중인 개발자 윤성준입니다.<br>
                 사람들과 소통하며 함께 성장하는 개발자를 목표로 하고 있으며,<br> 
                 꾸준한 학습과 실습을 통해 실력을 쌓아가고 있습니다.</h4><br>
-            <p>Hello, I am Seongjun Yoon, a software engineering student majoring in Software Convergence.
-I aim to become a developer who grows together through communication and collaboration with others,
-and I am continuously improving my skills through consistent learning and hands-on practice.</p>
+            <p>Hello, I am Seongjun Yoon, a software engineering student majoring in Software Convergence.<br>
+I aim to become a developer who grows together through communication and collaboration with others,<br>
+and I am continuously improving my skills through consistent learning and hands-on practice.</p><br>
             <br><button class="btn btn-default btn-lg">Get in Touch</button>
         </div>
         <div class="col-sm-4">
@@ -112,47 +112,72 @@ and I am continuously improving my skills through consistent learning and hands-
 
 
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-    <h2>SERVICES</h2>
-    <h4>What we offer</h4>
+<!-- Container (Technologies Section) -->
+<div id="technologies" class="container-fluid text-center">
+    <link rel="stylesheet" href="cards.css">
+    <h2>TECHNOLOGIES</h2>
+    <h4>What I Use</h4>
     <br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-off logo-small"></span>
-            <h4>POWER</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-heart logo-small"></span>
-            <h4>LOVE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-lock logo-small"></span>
-            <h4>JOB DONE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
+    <section class="tech-cards">
+  <div class="cards">
+
+    <!-- Application Dev -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon blue">&lt;/&gt;</div>
+        <div class="card-title">Languages</div>
+      </div>
+      <div class="tags">
+        <div class="tag">Java</div>
+        <div class="tag">Python</div>
+        <div class="tag">PHP</div>
+        <div class="tag">C</div>
+        <div class="tag">C++</div>
+        <div class="tag">R</div>
+        <div class="tag">Html</div>
+      </div>
     </div>
-    <br><br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-leaf logo-small"></span>
-            <h4>GREEN</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-certificate logo-small"></span>
-            <h4>CERTIFIED</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-wrench logo-small"></span>
-            <h4 style="color:#303030;">HARD WORK</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
+
+    <!-- Data & AI -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon green">⚙</div>
+        <div class="card-title">Data & AI</div>
+      </div>
+      <div class="tags">
+        <div class="tag">Python</div>
+        <div class="tag">R</div>
+        <div class="tag">MySQL</div>
+        <div class="tag">Oracle</div>
+        <div class="tag">OpenCV</div>
+        <div class="tag">Deep Learning</div>
+        <div class="tag">Big Data Analysis</div>
+      </div>
     </div>
-</div>
+
+    <!-- Infra & AI Tools -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon purple">⚡</div>
+        <div class="card-title">Infra & AI Tools</div>
+      </div>
+      <div class="tags">
+        
+        <div class="tag">Git / GitHub</div>
+        <div class="tag">ChatGPT</div>
+        <div class="tag">Gemini</div>
+        <div class="tag">Perplexity</div>
+        <div class="tag">GitHub Copilot</div>
+        <div class="tag">VS Code</div>
+        <div class="tag">Postman</div>
+        <div class="tag">Notion</div>
+        <div class="tag">Linux</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <!-- Container (Project Section) -->
 <div id="project" class="container-fluid text-center bg-grey">
@@ -216,67 +241,54 @@ and I am continuously improving my skills through consistent learning and hands-
     </div>
 </div>
 
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+<!-- Container (Blog Section) -->
+<div id="blog" class="container-fluid">
     <div class="text-center">
         <h2>Blog Link</h2>
-        <h4>Choose a payment plan that works for you</h4>
     </div>
     <div class="row slideanim">
         <div class="col-sm-4 col-xs-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <h1>Basic</h1>
+                    <h1>GitHub</h1>
                 </div>
                 <div class="panel-body">
-                    <p><strong>20</strong> Lorem</p>
-                    <p><strong>15</strong> Ipsum</p>
-                    <p><strong>5</strong> Dolor</p>
-                    <p><strong>2</strong> Sit</p>
-                    <p><strong>Endless</strong> Amet</p>
+                    <img src="assets/images/github.png" alt="FIRE" width="400" height="250">
                 </div>
                 <div class="panel-footer">
-                    <h3>$19</h3>
-                    <h4>per month</h4>
-                    <button class="btn btn-lg">Sign Up</button>
+                    
+                    <button class="btn btn-lg" onclick="location.href='https://github.com/ysjysj1212?tab=repositories'">Click</button>
+                    
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <h1>Pro</h1>
+                    <h1>Instagram</h1>
                 </div>
                 <div class="panel-body">
-                    <p><strong>50</strong> Lorem</p>
-                    <p><strong>25</strong> Ipsum</p>
-                    <p><strong>10</strong> Dolor</p>
-                    <p><strong>5</strong> Sit</p>
-                    <p><strong>Endless</strong> Amet</p>
+                    <img src="assets/images/insta.jpg" alt="FIRE" width="300" height="250">
                 </div>
                 <div class="panel-footer">
-                    <h3>$29</h3>
-                    <h4>per month</h4>
-                    <button class="btn btn-lg">Sign Up</button>
+                    
+                    <button class="btn btn-lg" onclick="window.location.href='https://www.instagram.com/y_s2jun/'">Click</button>
+
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <h1>Premium</h1>
+                    <h1>Tistory</h1>
                 </div>
                 <div class="panel-body">
-                    <p><strong>100</strong> Lorem</p>
-                    <p><strong>50</strong> Ipsum</p>
-                    <p><strong>25</strong> Dolor</p>
-                    <p><strong>10</strong> Sit</p>
-                    <p><strong>Endless</strong> Amet</p>
+                    <img src="assets/images/tistory.png" alt="FIRE" width="300" height="250">
                 </div>
                 <div class="panel-footer">
-                    <h3>$49</h3>
-                    <h4>per month</h4>
-                    <button class="btn btn-lg">Sign Up</button>
+                    
+                    <button class="btn btn-lg" onclick="location.href='https://ysjysj1212.tistory.com/'">Click</button>
+
                 </div>
             </div>
         </div>
